@@ -2,7 +2,11 @@
 
 # meta-openvario
 
-This is a layer for OpenEmbedded to support the Openvario hardware
+This is a layer for OpenEmbedded to support the Openvario hardware.
+
+**!! Breaking change !!**
+
+`scarthgap` is now the default and the current development branch. The structure of the meta-openvario layer has been adapted to the Yocto standard layout. Please read the updated README file.
 
 ## How to build an image
 
